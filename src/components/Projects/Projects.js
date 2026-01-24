@@ -79,7 +79,7 @@ Technologies: React.Js, Firebase, React Router, Redux, Context Api, React Query,
               imgPath={exclusive}
               imgStyle={{ height: "300px", objectFit: "cover" }} // Apply inline style here
               isBlog={false}
-              title="Exclusive E-commerce"
+              title="Exclusive E-Commerce"
               description="A modern e-commerce platform, featuring user authentication and shopping functionality.
 Technologies: React.Js, Firebase, React Router, Redux, Context Api, React Query, Formik, Yup, React Toast, Bootstrap, CSS Modules and Material UI."
               ghLink="https://github.com/ahmedwaelalkaliby/exclusive-e-commerce"
