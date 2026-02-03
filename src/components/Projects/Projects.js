@@ -83,7 +83,7 @@ Technologies: React.Js, Firebase, React Router, Redux, Context Api, React Query,
               description="A modern e-commerce platform, featuring user authentication and shopping functionality.
 Technologies: React.Js, Firebase, React Router, Redux, Context Api, React Query, Formik, Yup, React Toast, Bootstrap, CSS Modules and Material UI."
               ghLink="https://github.com/ahmedwaelalkaliby/exclusive-e-commerce"
-              demoLink="https://exclusivewaelecommerce.netlify.app/"
+              demoLink="https://exclusive-e-commerce-53okrd8qs-ahmed-wael-alkalibys-projects.vercel.app/"
             />
           </Col>
 
