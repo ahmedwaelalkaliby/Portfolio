@@ -7,6 +7,8 @@ import hatlyLLc from "../../Assets/Projects/hatlyLLc.png";
 import hatlyDashboard from "../../Assets/Projects/HatlyDashboard.png";
 import merchenStore from "../../Assets/Projects/merchen.png";
 import exclusive from "../../Assets/Projects/exclusive.png";
+import SouqShamel from "../../Assets/Projects/SouqShamel.png";
+import ZahabAwdeh from "../../Assets/Projects/ZahabAwdeh.png";
 import store from "../../Assets/Projects/Store.png";
 
 function Projects() {
@@ -21,6 +23,54 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </section>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          {/* <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={appointment}
+              imgStyle={{ height: "300px", objectFit: "cover" }}
+              isBlog={false}
+              title="Al-Mounafis"
+              description="A complete travel agency system with a public-facing website and internal dashboard, enabling destination-based package browsing with advanced filtering and full admin management.
+Technologies: Next.js, App Router, TypeScript, Next-Intl (i18n), Redux Toolkit, React Query, Axios, React Hook Form, Zod, Next Auth, React Icons, Tailwind CSS, Framer Motion, Swiper."
+              demoLink="https://www.almounafis.com/ar"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={appointment}
+              imgStyle={{ height: "300px", objectFit: "cover" }}
+              isBlog={false}
+              title="Al-Mounafies"
+              description="A complete travel agency system with a public-facing website and internal dashboard, enabling destination-based package browsing with advanced filtering and full admin management.
+Technologies: Next.js, App Router, TypeScript, Next-Intl (i18n), Redux Toolkit, React Query, Axios, React Hook Form, Zod, Next Auth, React Icons, Tailwind CSS, Framer Motion, Swiper."
+              demoLink="https://almounafies.com/ar"
+            />
+          </Col> */}
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ZahabAwdeh}
+              imgStyle={{ height: "300px", objectFit: "cover" }}
+              isBlog={false}
+              title="Zahab & Awdeh"
+              description="A complete travel agency system with a public-facing website and internal dashboard, enabling destination-based package browsing with advanced filtering and full admin management.
+Technologies: Next.js, App Router, TypeScript, Next-Intl (i18n), Redux Toolkit, React Query, Axios, React Hook Form, Zod, Next Auth, React Icons, Tailwind CSS, Framer Motion, Swiper."
+              demoLink="https://www.zahabweawdeh.com"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SouqShamel}
+              imgStyle={{ height: "300px", objectFit: "cover" }}
+              isBlog={false}
+              title="Souq Shamel"
+              description="A high-performance multilingual marketplace platform.
+Technologies: Next.js, App Router, TypeScript, TanStack Query (React Query), Zustand, Axios, Next-Intl (i18n), React Hook Form, Zod, OAuth, Tailwind CSS, Lucide React, Swiper."
+              demoLink="https://www.souqshamel.com"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={appointment}
